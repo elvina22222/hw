@@ -3,9 +3,9 @@ export default class Server extends Component {
 const express = require('express');
 const app = express();
 const inf = [
-    [0, 'A' , 21],
-    [1 , 'B' , 45],
-    [2 , 'C' , 67]
+    [id: 0, name : 'A' , age: 21],
+    [id: 1 , name: 'B' , age: 45],
+    [id: 2 , name:'C' , age: 67]
 ];
 
 app.get('/', function (req, res) {
